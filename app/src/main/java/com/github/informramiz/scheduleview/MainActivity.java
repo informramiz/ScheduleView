@@ -9,6 +9,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.github.informramiz.scheduleviewlibrary.Post;
+import com.github.informramiz.scheduleviewlibrary.PostDateUtils;
+import com.github.informramiz.scheduleviewlibrary.PostScheduleView;
+
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,7 +24,18 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        
+        PostScheduleView postScheduleView = findViewById(R.id.post_schedule_view);
+        //initialize post schedule view with custom data
+        PostScheduleView.PostScheduleInfo postScheduleInfo = new PostScheduleView.PostScheduleInfo.Builder()
+                .setRepeatType(Post.HOURLY)
+                .setRepeatCount(2)
+                .setRepeatForever(false)
+                .setPostScheduleDate(Calendar.getInstance().getTimeInMillis())
+                .build();
+        postScheduleView.setScheduleInfo(postScheduleInfo);
+
+        //after user is done, get the info with a simple method call
+//        PostScheduleView.PostScheduleInfo postScheduleInfo = postScheduleView.getScheduleInfo();
     }
 
     @Override
