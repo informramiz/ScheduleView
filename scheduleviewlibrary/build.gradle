@@ -1,15 +1,39 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'maven'
+    //package name
+    bintrayName = 'schedule-view'
+
+    publishedGroupId = 'io.github.informramiz'
+    libraryName = 'schedule-view-library'
+    artifact = 'scheduleviewlibrary'
+
+    libraryDescription = 'A schedule view with date, time, repeat type, repeat day, number of repetitions options.'
+
+    siteUrl = 'https://github.com/informramiz/ScheduleView'
+    gitUrl = 'https://github.com/informramiz/ScheduleView.git'
+
+    libraryVersion = versionName
+
+    developerId = 'informramiz'
+    developerName = 'Ramiz Raja'
+    developerEmail = 'informramiz@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 27
-
-
 
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName versionName
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -37,3 +61,6 @@ dependencies {
     api 'com.intuit.sdp:sdp-android:1.0.3'
     api 'com.intuit.ssp:ssp-android:1.0.4'
 }
+
+apply from: 'https://raw.githubusercontent.com/informramiz/SimpleDayPicker/master/daypickerlibrary/bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/informramiz/SimpleDayPicker/master/daypickerlibrary/install.gradle'
