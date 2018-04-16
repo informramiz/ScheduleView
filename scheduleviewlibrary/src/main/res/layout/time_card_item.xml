@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center|left"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ic_time_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:srcCompat="@drawable/ic_frequency" />
+
+    <TextView
+        android:id="@+id/tv_card_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Thursday Jully 27, 3:00 PM" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">ScheduleViewLibrary</string>
+    <string name="schedule">Schedule</string>
+
+    <string-array name="repeat_options">
+        <item>No Repeat</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string-array name="repeat_options_values" translatable="false">
+        <item>NOT_REPEAT</item>
+        <item>HOURLY</item>
+        <item>DAILY</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+        <item>YEARLY</item>
+    </string-array>
+
+    <string name="only_once">ONLY ONCE</string>
+    <string-array name="repetition_options">
+        <item>ONLY ONCE</item>
+        <item>2 times</item>
+        <item>3 times</item>
+        <item>4 times</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="repeat_count_options">
+        <item>2 times</item>
+        <item>3 times</item>
+        <item>4 times</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="repeat_count_options_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <string name="time_range_text_for_display">± %1$d mins</string>
+    <string-array name="time_range">
+        <item>0 min</item>
+        <item>± 5 min</item>
+        <item>± 10 min</item>
+        <item>± 15 min</item>
+        <item>± 30 min</item>
+    </string-array>
+    <integer-array name="time_range_values" translatable="false">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </integer-array>
+
+    <string name="custom">Custom</string>
+    <string name="time_card">Time Cards</string>
+    <string name="set_time">Set time</string>
+    <string name="set_date">Set date</string>
+    <string name="view_time_cards">VIEW SCHEDULE SUMMARY</string>
+    <string name="repetition">Repetitions</string>
+    <string name="text_post_history">Post Status</string>
+    <string name="frequency">Repeat every</string>
+    <string name="repeat_within">Adjust time by</string>
+    <string name="wrong_schedule_date">Selected time is in the past, please select one in the
+        future
+    </string>
+
+    <string name="expires_on">End after</string>
+    <string name="never">Never</string>
+    <string name="select_days">Select Days</string>
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string-array name="week_days" translatable="false">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="the_minimum_is_two_times">The minimum is two times.</string>
+    <string name="maximum_repeat">The maximum is 999 times</string>
+    <string name="adjust_by_time_text_for_display">± %1$d mins</string>
+    <string name="schedule_start">Schedule Start</string>
+</resources>

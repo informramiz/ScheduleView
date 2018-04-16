@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="line">#8250e3c2</color>
+    <color name="disabled_gray">#757575</color>
+    <color name="light_blue">#15B1EF</color>
+    <color name="dark_black">#4e4e4e</color>
+    <color name="light_gray">#e7e3e3</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center_vertical">-->
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_frequency" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="@string/select_days"
+            android:textColor="@color/disabled_gray"
+            android:textSize="@dimen/_12ssp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textView_select_repeat_days"
+            android:layout_width="@dimen/_135sdp"
+            android:layout_height="wrap_content"
+            android:text="MON, TUE, WED, THU"
+            android:background="?android:attr/selectableItemBackground"
+            android:maxLines="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:ellipsize="end"
+            android:padding="@dimen/_3sdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12ssp"/>
+    <!--</LinearLayout>-->
+</merge>

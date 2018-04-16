@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="12dp"
+    android:height="14dp"
+    android:viewportWidth="12"
+    android:viewportHeight="14">
+
+    <group
+            android:name="Pending-List"
+            android:translateX="-249.000000"
+            android:translateY="-242.000000">
+        <group
+                android:name="Sms"
+                android:translateX="20.000000"
+                android:translateY="148.000000">
+            <path
+                android:name="frequency"
+                android:fillColor="#757575"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M231.577778,97.4444444 L238.022222,97.4444444 L238.022222,99.3777778 L240.6,96.8
+L238.022222,94.2222222 L238.022222,96.1555556 L230.288889,96.1555556
+L230.288889,100.022222 L231.577778,100.022222 L231.577778,97.4444444
+L231.577778,97.4444444 Z M238.022222,103.888889 L231.577778,103.888889
+L231.577778,101.955556 L229,104.533333 L231.577778,107.111111
+L231.577778,105.177778 L239.311111,105.177778 L239.311111,101.311111
+L238.022222,101.311111 L238.022222,103.888889 L238.022222,103.888889 Z" />
+        </group>
+    </group>
+</vector>
