@@ -2,6 +2,7 @@
 
 buildscript {
     ext.versionName = "0.1"
+    ext.support_libs_version = "27.1.1"
     repositories {
         google()
         jcenter()
