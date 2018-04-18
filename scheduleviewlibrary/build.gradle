@@ -58,8 +58,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     api 'io.github.informramiz:daypickerlibrary:1.4'
-    api 'com.intuit.sdp:sdp-android:1.0.3'
-    api 'com.intuit.ssp:ssp-android:1.0.4'
+    api 'com.intuit.sdp:sdp-android:1.0.5'
+    api 'com.intuit.ssp:ssp-android:1.0.5'
 }
 
 apply from: 'https://raw.githubusercontent.com/informramiz/SimpleDayPicker/master/daypickerlibrary/bintray.gradle'
